@@ -1,0 +1,6 @@
+[submodule "SimulationVisualizer"]
+	path = SimulationVisualizer
+	url = https://github.com/steven-darwin/SimulationVisualizer.git
+[submodule "GeometryMesher"]
+	path = GeometryMesher
+	url = https://github.com/steven-darwin/GeometryMesher.git
