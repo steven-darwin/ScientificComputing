@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "boost",
+    "gtest",
+    "hdf5",
+    "mpi",
+    "tiff",
+    "libxmlpp"
+  ]
+}
