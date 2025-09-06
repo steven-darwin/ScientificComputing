@@ -13,17 +13,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # add source to this project's executable.
 set(PROJECT_SOURCES
-    src/input/InputSTEPAdapter.cpp
-    src/input/InputXDMFAdapter.cpp
-    src/input/InputHDF5Adapter.cpp
-    src/input/OutputXDMFAdapter.cpp
-    src/input/OutputHDF5Adapter.cpp
+
 )
 
 add_executable (${PROJECT_NAME} ${PROJECT_SOURCES}) 
 
 target_include_directories(${PROJECT_NAME} 
     PRIVATE 
-	    include/input
-	    include/output
+	    include
 )
